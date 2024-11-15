@@ -2,9 +2,6 @@
 
 
 
-
-# Tokyo Olympic Azure Data Engineering Project
-
 ## Project Overview
 <p>This project leverages various Azure services to collect, process, and analyze data related to the Tokyo 2020 Olympics. The key components of this project include:</p>
 <ul>
@@ -75,27 +72,25 @@
 ### 2. Data Ingestion
 <p>Use Azure Data Factory to ingest data into Azure Data Lake. Create a pipeline to automate data transfer from GitHub to Azure Data Lake.</p>
 
+![adf_2](https://github.com/user-attachments/assets/64af9f92-d500-4073-b43f-5a1ba336204f)
+
+
 ### 3. Data Transformation
 <p>After ingestion, use Azure Databricks for processing and transforming the data. You can clean and aggregate the data for analysis.</p>
+
+![databricks_3](https://github.com/user-attachments/assets/c3f532f7-f99b-4ecf-9217-5855bbe849c5)
+
 
 ### 4. Data Analytics
 <p>Analyze the transformed data using Azure Synapse Analytics to derive insights from the Olympics dataset.</p>
 
-### 5. Data Visualization
-<p>Use Power BI or Azure Synapse Analytics to visualize the insights and share the results.</p>
+![synapse_4](https://github.com/user-attachments/assets/3d6235fa-edad-43a1-aa5e-50b615031727)
 
-## Getting Started
-<p>To get started with this project:</p>
-<ol>
-  <li>Fork this repository.</li>
-  <li>Clone the forked repository to your local environment.</li>
-  <li>Follow the instructions in the <code>README.md</code> for setting up Azure services and running the pipelines.</li>
-</ol>
+
 
 ## Conclusion
 <p>This project provides an example of how to build a data engineering pipeline using Azure to process and analyze large datasets like the Tokyo 2020 Olympics. It integrates several Azure services and demonstrates their power in handling complex data engineering tasks.</p>
 
 <p>Feel free to contribute to this project or adapt it to your own use cases!</p>
 
-## License
-<p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
+
