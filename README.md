@@ -59,6 +59,9 @@
   <li><strong>Azure Data Lake Storage Gen2:</strong> As the data storage solution.</li>
 </ul>
 
+![img_2](https://github.com/user-attachments/assets/2d6304cb-a787-4058-8a64-6a611304aa53)
+
+
 ## Workflow
 
 ### 1. Initial Setup
