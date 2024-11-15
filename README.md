@@ -11,6 +11,14 @@
   <li><strong>Azure Data Lake Storage Gen2:</strong> Used for storing raw and transformed datasets.</li>
 </ul>
 
+
+
+## Project Architecture
+![arc_1](https://github.com/user-attachments/assets/91e0191c-4810-46a2-ac33-551a79045bc1)
+
+
+
+
 ## Dataset
 <p>The project uses a dataset from Kaggle that includes detailed information about the Tokyo 2020 Olympics, covering:</p>
 <ul>
