@@ -26,7 +26,6 @@
   <li><strong>Data Ingestion:</strong> Using Azure Data Factory to ingest raw data from GitHub into Azure Data Lake.</li>
   <li><strong>Data Transformation:</strong> The raw data is processed and cleaned using Azure Databricks.</li>
   <li><strong>Data Analytics:</strong> Azure Synapse Analytics is used to perform complex analytics on the data.</li>
-  <li><strong>Visualization:</strong> The processed data is visualized using Power BI or directly in Azure Synapse Analytics.</li>
 </ul>
 
 ## Technical Setup
@@ -38,7 +37,6 @@
   <li>Upload the Tokyo Olympics dataset from Kaggle to GitHub.</li>
   <li>Use Azure Data Factory to ingest data into Azure Data Lake Storage Gen2.</li>
   <li>Use Azure Databricks for data transformation and Azure Synapse for advanced analytics.</li>
-  <li>Visualize the results in Power BI or Azure Synapse Analytics.</li>
 </ol>
 
 ## Folder Structure
@@ -46,8 +44,7 @@
 <ul>
   <li><strong>Data Folder:</strong> Contains the CSV files for athletes, teams, and medals.</li>
   <li><strong>Python Folder:</strong> Contains Python scripts for data processing and transformation using Azure Databricks.</li>
-  <li><strong>SQL Scripts:</strong> Contains SQL queries for analysis in Azure Synapse Analytics.</li>
-  <li><strong>JSON Files:</strong> Contains configuration files like <code>data_ingestion_pipelines_datafactory.JSON</code> for Azure Data Factory pipelines.</li>
+  <li><strong>SQL Folder:</strong> Contains SQL queries for analysis in Azure Synapse Analytics.</li>
 </ul>
 
 ## Azure Services Used
@@ -71,6 +68,10 @@
   <li>Create a storage account within the resource group.</li>
   <li>Create two directories: <code>raw-data</code> and <code>transformed-data</code> to store raw and transformed datasets.</li>
 </ol>
+
+![img_1](https://github.com/user-attachments/assets/bd1c3df7-c31f-457e-a123-006c87dd0283)
+
+
 
 ### 2. Data Ingestion
 <p>Use Azure Data Factory to ingest data into Azure Data Lake. Create a pipeline to automate data transfer from GitHub to Azure Data Lake.</p>
